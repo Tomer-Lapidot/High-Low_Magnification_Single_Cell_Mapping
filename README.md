@@ -13,3 +13,4 @@ The functions perform the following steps:
 5.	Given the coordinates of the fiducial cells, the five mapping parameters for a given well are calculated using sequential least square programming minimization function, scipy package. The five mapping parameters are use to create an affine transformation that includes x-translation, y-translation, angle of rotation, x-scaling, and y-scaling.
 6.	Once mapping parameters are optimized, the affine transformation is performed for every cell in the well.
 
+![Workflow diagram of mapping functions](image_url)
